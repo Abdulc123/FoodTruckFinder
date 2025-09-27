@@ -39,7 +39,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     // useState keeps the current theme in local state. We also provide the
     // generic argument `useState<Theme>` so TypeScript knows `theme` has type
     // `Theme` and `setTheme` expects a `Theme` as well.
-    const [theme, setTheme] = useState<Theme>(themes.drexel);
+    const [theme, setTheme] = useState<Theme>(themes.temple);
 
     /*
         setThemeByCampus is a small helper that accepts a campus key (one of the
