@@ -6,13 +6,14 @@ import { useTheme } from '../theme/ThemeContext';
 import MapScreen from './MapScreen';
 import SearchScreen from './SearchScreen';
 import ProfileScreen from './ProfileScreen';
+import TabIcon from '../components/TabIcon';
 
 export default function NavigationBar() {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
-    { key: 'map', title: 'Map' },
-    { key: 'search', title: 'Search' },
-    { key: 'profile', title: 'Profile' },
+    { key: 'map', title: 'Map', icon: 'map' },
+    { key: 'search', title: 'Search', icon: 'magnify' },
+    { key: 'profile', title: 'Profile', icon: 'account' },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({
@@ -20,6 +21,11 @@ export default function NavigationBar() {
     search: SearchScreen,
     profile: ProfileScreen,
   });
+
+  // Custom icon renderer
+  const renderIcon = ({ route, focused, color }: any) => {
+    return <TabIcon iconName={route.icon} focused={focused} color={color} />;
+  };
 
   // read current theme from ThemeProvider
   const { theme } = useTheme();
@@ -34,10 +40,20 @@ export default function NavigationBar() {
         navigationState={{ index, routes }}
         onIndexChange={setIndex}
         renderScene={renderScene}
+        renderIcon={renderIcon}
         // Apply universal color design values from the theme
         barStyle={{ backgroundColor: theme.primary }}
-        activeColor={theme.secondary}
-        inactiveColor={theme.heading}
+        activeColor="#FFFFFF"
+        inactiveColor="rgba(255,255,255,0.6)"
+        activeIndicatorStyle={{ backgroundColor: 'rgba(255,255,255,0.2)' }}
+        style={{ backgroundColor: theme.primary }}
+        theme={{
+          colors: {
+            primary: '#FFFFFF',
+            onSurface: '#FFFFFF',
+            onSurfaceVariant: 'rgba(255,255,255,0.6)',
+          },
+        }}
       />
     </View>
   );
