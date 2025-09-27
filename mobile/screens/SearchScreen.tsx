@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Text, TextInput, FlatList, Image, TouchableOpacity, Alert } from 'react-native';
+import { View, Text, TextInput, FlatList } from 'react-native';
 import styles from './css/SearchScreen.styles';
 import { useTheme } from '../theme/ThemeContext';
+import AnimatedCartCard from '../components/AnimatedCartCard';
 
 interface Cart {
   id: string;
@@ -64,77 +65,14 @@ export default function SearchScreen() {
     }
   };
 
-  const handleCartPress = (cart: Cart) => {
-    Alert.alert(
-      cart.name,
-      `Address: ${cart.address}\nCuisine: ${cart.cuisine.join(', ')}\nRating: ${cart.rating}/5\nPrice Level: ${cart.priceLevel}\nPayment: ${cart.paymentMethods.join(', ')}`,
-      [{ text: 'OK' }]
-    );
-  };
-
-  const renderPriceLevel = (level: number) => {
-    return '💰'.repeat(level);
-  };
-
-  const renderStars = (rating: number) => {
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 !== 0;
-    let stars = '⭐'.repeat(fullStars);
-    if (hasHalfStar) stars += '⭐';
-    return stars;
-  };
-
   const renderCartItem = ({ item }: { item: Cart }) => (
-    <TouchableOpacity 
-      style={[styles.cartCard, { backgroundColor: theme.background, borderColor: theme.primary }]}
-      onPress={() => handleCartPress(item)}
-    >
-      <View style={styles.cartImageContainer}>
-        <Image 
-          source={{ uri: `https://picsum.photos/150/100?random=${item.id}` }}
-          style={styles.cartImage}
-          defaultSource={{ uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==' }}
-        />
-        <View style={styles.ratingBadge}>
-          <Text style={styles.ratingText}>{item.rating}</Text>
-        </View>
-      </View>
-      
-      <View style={styles.cartInfo}>
-        <Text style={[styles.cartName, { color: theme.text }]} numberOfLines={2}>
-          {item.name}
-        </Text>
-        
-        <View style={styles.cartDetails}>
-          <Text style={[styles.cartCuisine, { color: theme.secondary }]} numberOfLines={1}>
-            {item.cuisine.join(' • ')}
-          </Text>
-          
-          <View style={styles.cartMeta}>
-            <Text style={[styles.cartLocation, { color: theme.text }]} numberOfLines={1}>
-              📍 {item.address}
-            </Text>
-            <Text style={[styles.cartPrice, { color: theme.text }]}>
-              {renderPriceLevel(item.priceLevel)}
-            </Text>
-          </View>
-          
-          <View style={styles.cartTags}>
-            {item.tags.map((tag, index) => (
-              <View key={index} style={[styles.tag, { backgroundColor: theme.primary }]}>
-                <Text style={styles.tagText}>{tag}</Text>
-              </View>
-            ))}
-          </View>
-          
-          <View style={styles.paymentMethods}>
-            <Text style={[styles.paymentText, { color: theme.text }]}>
-              💳 {item.paymentMethods.join(' • ')}
-            </Text>
-          </View>
-        </View>
-      </View>
-    </TouchableOpacity>
+    <AnimatedCartCard 
+      cart={item}
+      onPress={() => {
+        // Optional: Add any additional handling here
+        console.log('Card pressed:', item.name);
+      }}
+    />
   );
 
   const themeStyle = {
