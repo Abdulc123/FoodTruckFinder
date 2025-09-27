@@ -37,7 +37,7 @@ export default function NavigationBar() {
         // Apply universal color design values from the theme
         barStyle={{ backgroundColor: theme.primary }}
         activeColor={theme.secondary}
-        inactiveColor={theme.text}
+        inactiveColor={theme.heading}
       />
     </View>
   );
