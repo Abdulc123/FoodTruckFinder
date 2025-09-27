@@ -1,0 +1,90 @@
+name: Build and Deploy Web
+
+on:
+  push:
+    branches: [main, prod]
+  
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'preview'
+        type: choice
+        options:
+        - preview
+        - production
+
+jobs:
+  build-web:
+    name: Build Web App
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/prod'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: mobile/package-lock.json
+      
+      - name: Install dependencies
+        run: |
+          cd mobile
+          npm ci --legacy-peer-deps
+      
+      - name: Setup Expo CLI (local build, no account needed)
+        run: npm install -g @expo/cli
+      
+      - name: Build web app (local build)
+        run: |
+          cd mobile
+          npx expo export --platform web
+        env:
+          EXPO_PUBLIC_ENV: ${{ github.ref == 'refs/heads/prod' && 'production' || 'staging' }}
+      
+      - name: Upload web build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-build
+          path: mobile/dist/
+          retention-days: 7
+
+  deploy-web:
+    name: Deploy Web App
+    runs-on: ubuntu-latest
+    needs: build-web
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/prod'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: web-build
+          path: mobile/dist/
+      
+      # Deploy to GitHub Pages (free, no external account needed)
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: mobile/dist
+          cname: your-custom-domain.com # optional
+        if: github.ref == 'refs/heads/prod'
+      
+      # Alternative: Deploy to Netlify (if you want)
+      - name: Deploy to Netlify Preview
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=mobile/dist
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        if: github.ref == 'refs/heads/main' && false # disabled by default
