@@ -1,0 +1,11 @@
+﻿node_modules/
+.expo/
+.env
+*.log
+.vscode/
+dist/
+build/
+coverage/
+.DS_Store
+mobile/node_modules/
+mobile/.expo/
