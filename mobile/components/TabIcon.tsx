@@ -23,31 +23,15 @@ const TabIcon: React.FC<TabIconProps> = ({ iconName, focused, color }) => {
     }
   };
 
-  const getBackgroundColor = () => {
-    if (focused) {
-      return 'rgba(255,255,255,0.2)'; // Highlighted background
-    }
-    return 'transparent';
-  };
-
   return (
-    <View style={{
-      backgroundColor: getBackgroundColor(),
-      borderRadius: 12,
-      padding: 6,
-      minWidth: 40,
-      alignItems: 'center',
-      justifyContent: 'center',
+    <Text style={{ 
+      fontSize: focused ? 22 : 18, 
+      color: color,
+      opacity: focused ? 1 : 0.7,
+      fontWeight: focused ? 'bold' : 'normal',
     }}>
-      <Text style={{ 
-        fontSize: focused ? 22 : 18, 
-        color: color,
-        opacity: focused ? 1 : 0.7,
-        fontWeight: focused ? 'bold' : 'normal',
-      }}>
-        {getIcon()}
-      </Text>
-    </View>
+      {getIcon()}
+    </Text>
   );
 };
 
