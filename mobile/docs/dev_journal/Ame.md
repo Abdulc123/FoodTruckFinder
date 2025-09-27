@@ -8,4 +8,4 @@ And then refresh like 3 times
 Main question do we have to do it multiple times?
 
 # to start it
-
+npx expo start --web
