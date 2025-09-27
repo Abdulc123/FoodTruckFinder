@@ -1,0 +1,69 @@
+[
+    {
+      "id": "nyc-001",
+      "name": "Kings Halal Cart - 53rd & 6th",
+      "coords": { "lat": 40.761708, "lng": -73.979363 },
+      "city": "NYC",
+      "cuisine": ["Egyptian", "Mediterranean"],
+      "halalCert": "Self-attested",
+      "hours": { "mon": ["11:00","03:00"], "tue": ["11:00","03:00"], "wed": ["11:00","03:00"], "thu": ["11:00","03:00"], "fri": ["11:00","04:00"], "sat": ["12:00","04:00"], "sun": ["12:00","02:00"] },
+      "priceLevel": 2,
+      "rating": 4.6,
+      "paymentMethods": ["cash","card","applePay"],
+      "tags": ["late-night","combo-platters"],
+      "lastUpdated": "2025-09-27T14:00:00Z"
+    },
+    {
+      "id": "nyc-002",
+      "name": "Shah’s Halal – Astoria",
+      "coords": { "lat": 40.76496, "lng": -73.92305 },
+      "city": "NYC",
+      "cuisine": ["Pakistani"],
+      "hours": { "mon": ["10:30","01:00"], "tue": ["10:30","01:00"], "wed": ["10:30","01:00"], "thu": ["10:30","01:00"], "fri": ["10:30","02:00"], "sat": ["11:00","02:00"], "sun": ["11:00","00:00"] },
+      "priceLevel": 1,
+      "rating": 4.4,
+      "paymentMethods": ["cash","card"],
+      "tags": ["spicy","quick-bite"],
+      "lastUpdated": "2025-09-27T14:00:00Z"
+    },
+    {
+      "id": "phl-001",
+      "name": "Broad St Halal Grill",
+      "coords": { "lat": 39.95194, "lng": -75.16554 },
+      "city": "Philadelphia",
+      "cuisine": ["Bangladeshi","Pakistani"],
+      "hours": { "mon": ["11:00","22:00"], "tue": ["11:00","22:00"], "wed": ["11:00","22:00"], "thu": ["11:00","22:00"], "fri": ["11:00","23:00"], "sat": ["12:00","23:00"], "sun": ["12:00","20:00"] },
+      "priceLevel": 1,
+      "rating": 4.5,
+      "paymentMethods": ["cash"],
+      "tags": ["white-sauce","cheap-eats"],
+      "lastUpdated": "2025-09-27T14:00:00Z"
+    },
+    {
+      "id": "phl-002",
+      "name": "University City Halal Cart",
+      "coords": { "lat": 39.95434, "lng": -75.18953 },
+      "city": "Philadelphia",
+      "cuisine": ["Mediterranean"],
+      "hours": { "mon": ["11:00","20:00"], "tue": ["11:00","20:00"], "wed": ["11:00","20:00"], "thu": ["11:00","20:00"], "fri": ["11:00","21:00"], "sat": ["12:00","21:00"] },
+      "priceLevel": 2,
+      "rating": 4.2,
+      "paymentMethods": ["cash","card"],
+      "tags": ["student-favorite","combo-platters"],
+      "lastUpdated": "2025-09-27T14:00:00Z"
+    },
+    {
+      "id": "phl-003",
+      "name": "Old City Night Halal",
+      "coords": { "lat": 39.94955, "lng": -75.14406 },
+      "city": "Philadelphia",
+      "cuisine": ["Afghan"],
+      "hours": { "fri": ["18:00","02:00"], "sat": ["18:00","02:00"] },
+      "priceLevel": 2,
+      "rating": 4.0,
+      "paymentMethods": ["cash","card","googlePay"],
+      "tags": ["late-night","kebab"],
+      "lastUpdated": "2025-09-27T14:00:00Z"
+    }
+  ]
+  
