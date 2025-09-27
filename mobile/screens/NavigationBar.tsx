@@ -1,5 +1,7 @@
 import React from 'react';
+import { View, StyleSheet } from 'react-native';
 import { BottomNavigation } from 'react-native-paper';
+import { useTheme } from '../theme/ThemeContext';
 
 import MapScreen from './MapScreen';
 import SearchScreen from './SearchScreen';
@@ -19,11 +21,30 @@ export default function NavigationBar() {
     profile: ProfileScreen,
   });
 
+  // read current theme from ThemeProvider
+  const { theme } = useTheme();
+
+  // quick debug output to ensure this component renders at runtime
+  // (check Metro logs or console output in your device/emulator)
+  console.log('NavigationBar render, index =', index, 'theme=', theme.primary);
+
   return (
-    <BottomNavigation
-      navigationState={{ index, routes }}
-      onIndexChange={setIndex}
-      renderScene={renderScene}
-    />
+    <View style={styles.container}>
+      <BottomNavigation
+        navigationState={{ index, routes }}
+        onIndexChange={setIndex}
+        renderScene={renderScene}
+        // Apply universal color design values from the theme
+        barStyle={{ backgroundColor: theme.primary }}
+        activeColor={theme.secondary}
+        inactiveColor={theme.text}
+      />
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
