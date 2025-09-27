@@ -1,0 +1,2480 @@
+[
+  {
+    "id": "nyc-000",
+    "name": "NYC Halal Cart #1",
+    "coords": {
+      "lat": -65.49829454332931,
+      "lng": 41.057152882941494
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.1,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.572Z"
+  },
+  {
+    "id": "nyc-001",
+    "name": "NYC Halal Cart #2",
+    "coords": {
+      "lat": 70.95935043309893,
+      "lng": -93.02533179260936
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 3.8,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-002",
+    "name": "NYC Halal Cart #3",
+    "coords": {
+      "lat": 30.038801591868555,
+      "lng": -36.71552314197921
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-003",
+    "name": "NYC Halal Cart #4",
+    "coords": {
+      "lat": 100.62832709624732,
+      "lng": 44.965364339188596
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-004",
+    "name": "NYC Halal Cart #5",
+    "coords": {
+      "lat": -85.42706659926125,
+      "lng": 11.163147941500284
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-005",
+    "name": "NYC Halal Cart #6",
+    "coords": {
+      "lat": 97.96212162364432,
+      "lng": -197.56431148509228
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-006",
+    "name": "NYC Halal Cart #7",
+    "coords": {
+      "lat": 170.20958251969063,
+      "lng": -156.68635276923146
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-007",
+    "name": "NYC Halal Cart #8",
+    "coords": {
+      "lat": 113.24738263736663,
+      "lng": -124.44309142686159
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.3,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-008",
+    "name": "NYC Halal Cart #9",
+    "coords": {
+      "lat": -13.663767425434628,
+      "lng": 34.09599427048059
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.573Z"
+  },
+  {
+    "id": "nyc-009",
+    "name": "NYC Halal Cart #10",
+    "coords": {
+      "lat": 164.3411169446613,
+      "lng": 3.0116319645044314
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-010",
+    "name": "NYC Halal Cart #11",
+    "coords": {
+      "lat": 31.295855054615394,
+      "lng": -26.3533455054261
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-011",
+    "name": "NYC Halal Cart #12",
+    "coords": {
+      "lat": -76.0298656619274,
+      "lng": -94.48262650162582
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-012",
+    "name": "NYC Halal Cart #13",
+    "coords": {
+      "lat": 173.4923585690192,
+      "lng": -27.068816482462132
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.6,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-013",
+    "name": "NYC Halal Cart #14",
+    "coords": {
+      "lat": 108.6633517739624,
+      "lng": -99.83533560288151
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-014",
+    "name": "NYC Halal Cart #15",
+    "coords": {
+      "lat": 106.84234545382333,
+      "lng": 39.238530980297355
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.5,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-015",
+    "name": "NYC Halal Cart #16",
+    "coords": {
+      "lat": 124.39255919321397,
+      "lng": -92.79880197179052
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-016",
+    "name": "NYC Halal Cart #17",
+    "coords": {
+      "lat": 1.3740936733218732,
+      "lng": -145.3216389221477
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-017",
+    "name": "NYC Halal Cart #18",
+    "coords": {
+      "lat": 8.663300724589838,
+      "lng": -115.62172521313859
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-018",
+    "name": "NYC Halal Cart #19",
+    "coords": {
+      "lat": -81.98555729326921,
+      "lng": 12.826580301902041
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-019",
+    "name": "NYC Halal Cart #20",
+    "coords": {
+      "lat": -8.943243275452119,
+      "lng": -77.31221153658498
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.1,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-020",
+    "name": "NYC Halal Cart #21",
+    "coords": {
+      "lat": -24.842817101599003,
+      "lng": -3.748611075388439
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-021",
+    "name": "NYC Halal Cart #22",
+    "coords": {
+      "lat": -14.340854670865077,
+      "lng": -65.17718385961136
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.4,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-022",
+    "name": "NYC Halal Cart #23",
+    "coords": {
+      "lat": 29.63211749921596,
+      "lng": -45.20667124589502
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.8,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-023",
+    "name": "NYC Halal Cart #24",
+    "coords": {
+      "lat": -36.26070562917878,
+      "lng": -26.94183795656369
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.3,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-024",
+    "name": "NYC Halal Cart #25",
+    "coords": {
+      "lat": 72.36691020531694,
+      "lng": -171.867344861987
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.3,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-025",
+    "name": "NYC Halal Cart #26",
+    "coords": {
+      "lat": -25.43912166480323,
+      "lng": -48.19186915382119
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-026",
+    "name": "NYC Halal Cart #27",
+    "coords": {
+      "lat": 78.72780639831187,
+      "lng": -156.9503191337492
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.1,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-027",
+    "name": "NYC Halal Cart #28",
+    "coords": {
+      "lat": -12.126236432985372,
+      "lng": -7.697965749311081
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.6,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-028",
+    "name": "NYC Halal Cart #29",
+    "coords": {
+      "lat": -18.78752941347912,
+      "lng": -154.3780454354673
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "nyc-029",
+    "name": "NYC Halal Cart #30",
+    "coords": {
+      "lat": -91.58206381829538,
+      "lng": -88.31407429391979
+    },
+    "city": "NYC",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-000",
+    "name": "Philadelphia Halal Cart #1",
+    "coords": {
+      "lat": 109.44103768868507,
+      "lng": 13.014735626112113
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.3,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-001",
+    "name": "Philadelphia Halal Cart #2",
+    "coords": {
+      "lat": -76.03588074501783,
+      "lng": -14.437331228007771
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-002",
+    "name": "Philadelphia Halal Cart #3",
+    "coords": {
+      "lat": 133.72672840629411,
+      "lng": -160.97806009437926
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-003",
+    "name": "Philadelphia Halal Cart #4",
+    "coords": {
+      "lat": -11.153777666614722,
+      "lng": 49.51014344120124
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-004",
+    "name": "Philadelphia Halal Cart #5",
+    "coords": {
+      "lat": 47.6300127915975,
+      "lng": -66.49343984799981
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-005",
+    "name": "Philadelphia Halal Cart #6",
+    "coords": {
+      "lat": -48.01434578214867,
+      "lng": -162.2917670915284
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Afghan"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.5,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-006",
+    "name": "Philadelphia Halal Cart #7",
+    "coords": {
+      "lat": -69.43046725366492,
+      "lng": -150.80595096666295
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-007",
+    "name": "Philadelphia Halal Cart #8",
+    "coords": {
+      "lat": 68.49522159514439,
+      "lng": 36.8740387178282
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-008",
+    "name": "Philadelphia Halal Cart #9",
+    "coords": {
+      "lat": 32.75362061314122,
+      "lng": 39.997104349888886
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 3.8,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-009",
+    "name": "Philadelphia Halal Cart #10",
+    "coords": {
+      "lat": 95.18878540677422,
+      "lng": -19.826448530693355
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-010",
+    "name": "Philadelphia Halal Cart #11",
+    "coords": {
+      "lat": 34.190668728178345,
+      "lng": -136.56731462284247
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.4,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-011",
+    "name": "Philadelphia Halal Cart #12",
+    "coords": {
+      "lat": 46.41718073641671,
+      "lng": -19.95070435326678
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 5,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-012",
+    "name": "Philadelphia Halal Cart #13",
+    "coords": {
+      "lat": -50.98984871644826,
+      "lng": -60.68193121621863
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Turkish",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-013",
+    "name": "Philadelphia Halal Cart #14",
+    "coords": {
+      "lat": 154.16805002930369,
+      "lng": -120.14764688026165
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-014",
+    "name": "Philadelphia Halal Cart #15",
+    "coords": {
+      "lat": 113.94312475226758,
+      "lng": -54.20085783142922
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 5,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-015",
+    "name": "Philadelphia Halal Cart #16",
+    "coords": {
+      "lat": -18.702674797416073,
+      "lng": -3.038361389222686
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 2,
+    "rating": 4.3,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-016",
+    "name": "Philadelphia Halal Cart #17",
+    "coords": {
+      "lat": 50.32275078579841,
+      "lng": -32.48813709729497
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.7,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-017",
+    "name": "Philadelphia Halal Cart #18",
+    "coords": {
+      "lat": 158.7739632149639,
+      "lng": -152.57451091960695
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.6,
+    "paymentMethods": [
+      "cash"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-018",
+    "name": "Philadelphia Halal Cart #19",
+    "coords": {
+      "lat": 107.23953907044103,
+      "lng": 44.72048126577195
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Egyptian",
+      "Mediterranean"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "20:00"
+      ],
+      "tue": [
+        "11:00",
+        "20:00"
+      ],
+      "wed": [
+        "11:00",
+        "20:00"
+      ],
+      "thu": [
+        "11:00",
+        "20:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "12:00",
+        "21:00"
+      ]
+    },
+    "priceLevel": 1,
+    "rating": 3.9,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "quick-bite"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  },
+  {
+    "id": "philadelphia-019",
+    "name": "Philadelphia Halal Cart #20",
+    "coords": {
+      "lat": -89.41743067761573,
+      "lng": -6.943609220966465
+    },
+    "city": "Philadelphia",
+    "cuisine": [
+      "Bangladeshi",
+      "Pakistani"
+    ],
+    "hours": {
+      "mon": [
+        "11:00",
+        "03:00"
+      ],
+      "tue": [
+        "11:00",
+        "03:00"
+      ],
+      "wed": [
+        "11:00",
+        "03:00"
+      ],
+      "thu": [
+        "11:00",
+        "03:00"
+      ],
+      "fri": [
+        "11:00",
+        "04:00"
+      ],
+      "sat": [
+        "12:00",
+        "04:00"
+      ],
+      "sun": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "priceLevel": 3,
+    "rating": 4.2,
+    "paymentMethods": [
+      "cash",
+      "card"
+    ],
+    "tags": [
+      "late-night"
+    ],
+    "lastUpdated": "2025-09-27T22:28:25.574Z"
+  }
+]
