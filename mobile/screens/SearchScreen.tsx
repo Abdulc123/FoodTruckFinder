@@ -11,6 +11,7 @@ interface Cart {
     lng: number;
   };
   city: string;
+  address: string;
   cuisine: string[];
   hours: {
     [key: string]: string[];
@@ -42,6 +43,7 @@ export default function SearchScreen() {
       const filtered = carts.filter(cart => 
         cart.name.toLowerCase().includes(query.toLowerCase()) ||
         cart.city.toLowerCase().includes(query.toLowerCase()) ||
+        cart.address.toLowerCase().includes(query.toLowerCase()) ||
         cart.cuisine.some(c => c.toLowerCase().includes(query.toLowerCase())) ||
         cart.tags.some(t => t.toLowerCase().includes(query.toLowerCase()))
       );
@@ -65,7 +67,7 @@ export default function SearchScreen() {
   const handleCartPress = (cart: Cart) => {
     Alert.alert(
       cart.name,
-      `Location: ${cart.city}\nCuisine: ${cart.cuisine.join(', ')}\nRating: ${cart.rating}/5\nPrice Level: ${cart.priceLevel}\nPayment: ${cart.paymentMethods.join(', ')}`,
+      `Address: ${cart.address}\nCuisine: ${cart.cuisine.join(', ')}\nRating: ${cart.rating}/5\nPrice Level: ${cart.priceLevel}\nPayment: ${cart.paymentMethods.join(', ')}`,
       [{ text: 'OK' }]
     );
   };
@@ -109,8 +111,8 @@ export default function SearchScreen() {
           </Text>
           
           <View style={styles.cartMeta}>
-            <Text style={[styles.cartLocation, { color: theme.text }]}>
-              📍 {item.city}
+            <Text style={[styles.cartLocation, { color: theme.text }]} numberOfLines={1}>
+              📍 {item.address}
             </Text>
             <Text style={[styles.cartPrice, { color: theme.text }]}>
               {renderPriceLevel(item.priceLevel)}
@@ -155,7 +157,7 @@ export default function SearchScreen() {
         <TextInput
           value={query}
           onChangeText={setQuery}
-          placeholder="Search trucks, cuisine, or location..."
+          placeholder="Search trucks, cuisine, address, or location..."
           style={[styles.searchInput, { 
             borderColor: theme.primary, 
             color: theme.text,
