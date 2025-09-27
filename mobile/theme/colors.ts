@@ -1,6 +1,7 @@
 export const colors = {
     defaultBackground: "#FFFFFF",
-    defaultText: "#00000",
+    defaultTextBlack: "#000000",
+    defaultTextWhite: "#FFFFFF",
     drexelBlue: "#07294D",
     drexelGold: "#FFD200",
     templeRed: "#A41E34",
