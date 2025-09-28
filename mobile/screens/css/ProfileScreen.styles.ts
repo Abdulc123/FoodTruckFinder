@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: { flex: 1 },
-  contentContainer: { padding: 20 },
+  contentContainer: { padding: 20, paddingTop: 100 },
   headerRow: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' },
   headerLeft: { flexDirection: 'row', alignItems: 'flex-start', flex: 1 },
   headerRight: { alignItems: 'flex-end', marginLeft: 12 },

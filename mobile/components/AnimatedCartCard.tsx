@@ -132,36 +132,6 @@ const AnimatedCartCard: React.FC<AnimatedCartCardProps> = ({ cart, onPress }) =>
     return `${distance.toFixed(1)} km from Temple`;
   };
 
-  // Static local images included so Metro/bundler can package them.
-  const FOOD_TRUCK_IMAGES = [
-    require('../assets/food-truck1.jpg'),
-    require('../assets/food-truck2.jpg'),
-    require('../assets/food-truck3.jpg'),
-    require('../assets/food-truck4.jpg'),
-    require('../assets/food-truck5.jpg'),
-    require('../assets/food-truck6.jpg'),
-    require('../assets/food-truck7.jpg'),
-    require('../assets/food-truck8.jpg'),
-  ];
-
-  const getImageForCart = (id: string) => {
-    // Try to parse numeric suffix from IDs like 'philly-012' or 'philly-12'
-    const m = id.match(/(\d+)$/);
-    let idx = 0;
-    if (m) {
-      idx = parseInt(m[1], 10);
-    } else {
-      // fallback: hash the id string
-      let hash = 0;
-      for (let i = 0; i < id.length; i++) {
-        hash = (hash << 5) - hash + id.charCodeAt(i);
-        hash |= 0;
-      }
-      idx = Math.abs(hash);
-    }
-    return FOOD_TRUCK_IMAGES[idx % FOOD_TRUCK_IMAGES.length];
-  };
-
   return (
     <Animated.View
       style={[
@@ -186,9 +156,11 @@ const AnimatedCartCard: React.FC<AnimatedCartCardProps> = ({ cart, onPress }) =>
         <View style={styles.mainContent}>
           <View style={styles.cartImageContainer}>
             <Image
-              source={getImageForCart(cart.id)}
+              source={{ uri: `https://picsum.photos/150/100?random=${cart.id}` }}
               style={styles.cartImage}
-              defaultSource={require('../assets/icon.png')}
+              defaultSource={{
+                uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==',
+              }}
             />
             <View style={styles.ratingBadge}>
               <Text style={styles.ratingText}>{cart.rating}</Text>
@@ -358,8 +330,8 @@ const styles = {
     height: 100,
   },
   cartImage: {
-    width: 120,
-    height: 100,
+    width: '100%',
+    height: '100%',
     resizeMode: 'cover' as const,
   },
   ratingBadge: {
