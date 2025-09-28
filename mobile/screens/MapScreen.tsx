@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import styles from './css/MapScreen.styles';
 import { useTheme } from '../theme/ThemeContext';
 // If you want to use a real map, install and configure react-native-maps
@@ -18,10 +18,14 @@ export default function MapScreen() {
   return (
     <View style={[styles.container, themeStyle]}>
       <Text style={[styles.title, { color: theme.primary }]}>Map</Text>
-      <Text style={[styles.body, { color: theme.text }]}> 
-        This is the Map screen. Replace this placeholder with a MapView from
-        react-native-maps and wire it up to your location and truck markers.
-      </Text>
+
+      {/* Large centered image from assets */}
+      <Image
+        source={require('../assets/map-page.png')}
+        style={styles.centerImage}
+        resizeMode="contain"
+      />
+
     </View>
   );
 }

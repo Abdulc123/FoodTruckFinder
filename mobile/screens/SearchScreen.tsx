@@ -60,7 +60,6 @@ export default function SearchScreen() {
       setIsLoading(false);
     } catch (error) {
       console.error('Error loading carts:', error);
-      Alert.alert('Error', 'Failed to load food truck data');
       setIsLoading(false);
     }
   };
